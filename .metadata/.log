@@ -1,0 +1,2674 @@
+!SESSION 2019-04-24 11:03:38.858 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /home/administrator/Documents/Aamir -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2019-04-24 11:03:43.111
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-24 11:03:43.111
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 11:03:43.359
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-04-24 11:03:44.129
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-04-24 11:03:44.156
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2019-04-24 11:03:45.000
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-24 11:03:45.000
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@265c0752,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d4b32d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:19.674
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:19.675
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1da9f44c[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=528)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:19.675
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:19.758
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:26.864
+!MESSAGE Boot LS startup time from start to initialized: 5261ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.688
+!MESSAGE Boot LS startup time from start to initialized: 6086ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.725
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PEJdoLaP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.726
+!MESSAGE subscribing to classpath changes: sts4.classpath.PEJdoLaP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.727
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.727
+!MESSAGE subsribers = [sts4.classpath.PEJdoLaP]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.727
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.730
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.733
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.733
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.733
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.736
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PEJdoLaP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.737
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.737
+!MESSAGE executing callback sts4.classpath.PEJdoLaP m2-final false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:07:27.791
+!MESSAGE executing callback sts4.classpath.PEJdoLaP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:09:51.128
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:09:51.129
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:09:51.140
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:09:51.141
+!MESSAGE executing callback sts4.classpath.PEJdoLaP m2-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:09:51.169
+!MESSAGE executing callback sts4.classpath.PEJdoLaP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:10:28.674
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:10:28.674
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:10:28.676
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:10:28.676
+!MESSAGE executing callback sts4.classpath.PEJdoLaP m2-final false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:10:28.710
+!MESSAGE executing callback sts4.classpath.PEJdoLaP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:23:12.106
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:23:12.106
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:23:12.122
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:23:12.122
+!MESSAGE executing callback sts4.classpath.PEJdoLaP m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:23:12.694
+!MESSAGE executing callback sts4.classpath.PEJdoLaP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:34.728
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PEJdoLaP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:34.728
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PEJdoLaP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:34.728
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:34.728
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PEJdoLaP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.741
+!MESSAGE Boot LS startup time from start to initialized: 3175ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.795
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nbALIzqv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.801
+!MESSAGE subscribing to classpath changes: sts4.classpath.nbALIzqv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.801
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.802
+!MESSAGE subsribers = [sts4.classpath.nbALIzqv]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.802
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nbALIzqv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.827
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.831
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.831
+!MESSAGE executing callback sts4.classpath.nbALIzqv m2-final false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.880
+!MESSAGE executing callback sts4.classpath.nbALIzqv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.881
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.882
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.882
+!MESSAGE executing callback sts4.classpath.nbALIzqv m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:37:52.889
+!MESSAGE executing callback sts4.classpath.nbALIzqv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:42:37.479
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:42:37.480
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:42:37.480
+!MESSAGE executing callback sts4.classpath.nbALIzqv m3-final true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:42:37.533
+!MESSAGE executing callback sts4.classpath.nbALIzqv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:11.962
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nbALIzqv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:11.962
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nbALIzqv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:11.962
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:11.962
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nbALIzqv => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-04-24 11:44:14.308
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1
+!SESSION 2019-04-24 11:44:14.890 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data file:/home/administrator/Documents/Aamir/ -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 11:44:19.654
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-24 11:44:21.315
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-24 11:44:21.315
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e1c8027,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72d7afff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:50.058
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:50.059
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5808573f[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=528)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:50.059
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:50.096
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.053
+!MESSAGE Boot LS startup time from start to initialized: 4977ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.082
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eYMdVORN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.082
+!MESSAGE subscribing to classpath changes: sts4.classpath.eYMdVORN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.083
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.083
+!MESSAGE subsribers = [sts4.classpath.eYMdVORN]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.084
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.089
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.090
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.090
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.098
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.098
+!MESSAGE executing callback sts4.classpath.eYMdVORN m2-final false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.104
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.105
+!MESSAGE project m3-final SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.105
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.105
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eYMdVORN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:44:55.154
+!MESSAGE executing callback sts4.classpath.eYMdVORN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:48:27.715
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:48:27.715
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:48:27.717
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:48:27.717
+!MESSAGE executing callback sts4.classpath.eYMdVORN m2-final false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:48:27.749
+!MESSAGE executing callback sts4.classpath.eYMdVORN SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.127
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.131
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.131
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.134
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.135
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.136
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.136
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.137
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 11:52:40.146
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:530)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:467)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:736)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4582)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:52:48.545
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eYMdVORN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:52:48.545
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eYMdVORN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:52:48.545
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:52:48.545
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eYMdVORN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.070
+!MESSAGE Boot LS startup time from start to initialized: 3317ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.098
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KoSufPKC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.098
+!MESSAGE subscribing to classpath changes: sts4.classpath.KoSufPKC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE subsribers = [sts4.classpath.KoSufPKC]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.099
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.100
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KoSufPKC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.100
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.100
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.101
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.102
+!MESSAGE executing callback sts4.classpath.KoSufPKC m2test false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.163
+!MESSAGE executing callback sts4.classpath.KoSufPKC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.163
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.169
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.170
+!MESSAGE executing callback sts4.classpath.KoSufPKC m2-final false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:55:05.176
+!MESSAGE executing callback sts4.classpath.KoSufPKC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:56:30.695
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KoSufPKC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:56:30.695
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KoSufPKC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:56:30.695
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:56:30.695
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KoSufPKC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.522
+!MESSAGE Boot LS startup time from start to initialized: 3539ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.538
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FKuqFtsw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.538
+!MESSAGE subscribing to classpath changes: sts4.classpath.FKuqFtsw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.538
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.538
+!MESSAGE subsribers = [sts4.classpath.FKuqFtsw]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.539
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.567
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.567
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.567
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.567
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FKuqFtsw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.568
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.568
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.569
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.569
+!MESSAGE executing callback sts4.classpath.FKuqFtsw m2test false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.627
+!MESSAGE executing callback sts4.classpath.FKuqFtsw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.628
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.628
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.629
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.629
+!MESSAGE executing callback sts4.classpath.FKuqFtsw m2-final false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:07.645
+!MESSAGE executing callback sts4.classpath.FKuqFtsw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:30.295
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FKuqFtsw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:30.296
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FKuqFtsw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:30.296
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:57:30.296
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FKuqFtsw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.129
+!MESSAGE Boot LS startup time from start to initialized: 3535ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.185
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vCNkyElg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.185
+!MESSAGE subscribing to classpath changes: sts4.classpath.vCNkyElg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.185
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE subsribers = [sts4.classpath.vCNkyElg]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE project m2-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vCNkyElg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.187
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.188
+!MESSAGE executing callback sts4.classpath.vCNkyElg m2test false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.235
+!MESSAGE executing callback sts4.classpath.vCNkyElg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.235
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.235
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.236
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.237
+!MESSAGE executing callback sts4.classpath.vCNkyElg m2-final false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:58:27.242
+!MESSAGE executing callback sts4.classpath.vCNkyElg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:59:51.147
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:59:51.147
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:59:51.149
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:59:51.150
+!MESSAGE executing callback sts4.classpath.vCNkyElg m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 11:59:51.177
+!MESSAGE executing callback sts4.classpath.vCNkyElg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:03.571
+!MESSAGE Preparing classpath changed notification m2-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:03.571
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:03.572
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:03.572
+!MESSAGE executing callback sts4.classpath.vCNkyElg m2-final false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:03.606
+!MESSAGE executing callback sts4.classpath.vCNkyElg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:09.440
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vCNkyElg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:09.453
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vCNkyElg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:09.453
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:00:09.453
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vCNkyElg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.461
+!MESSAGE Boot LS startup time from start to initialized: 4018ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.501
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bkSthSug
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.501
+!MESSAGE subscribing to classpath changes: sts4.classpath.bkSthSug
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.501
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.501
+!MESSAGE subsribers = [sts4.classpath.bkSthSug]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.501
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.503
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.503
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.503
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bkSthSug => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.503
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.505
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.505
+!MESSAGE executing callback sts4.classpath.bkSthSug m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:05:19.565
+!MESSAGE executing callback sts4.classpath.bkSthSug SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:10:58.297
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:10:58.297
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:10:58.300
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:10:58.300
+!MESSAGE executing callback sts4.classpath.bkSthSug m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:10:58.309
+!MESSAGE executing callback sts4.classpath.bkSthSug SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:15:12.563
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bkSthSug
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:15:12.564
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bkSthSug
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:15:12.564
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:15:12.564
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bkSthSug => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.112
+!MESSAGE Boot LS startup time from start to initialized: 3507ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.152
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CONmlFGB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.153
+!MESSAGE subscribing to classpath changes: sts4.classpath.CONmlFGB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.153
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.153
+!MESSAGE subsribers = [sts4.classpath.CONmlFGB]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.153
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.153
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.154
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.154
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.154
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.154
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CONmlFGB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.155
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.155
+!MESSAGE executing callback sts4.classpath.CONmlFGB m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.253
+!MESSAGE executing callback sts4.classpath.CONmlFGB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.253
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.253
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.254
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.254
+!MESSAGE executing callback sts4.classpath.CONmlFGB m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 12:16:03.265
+!MESSAGE executing callback sts4.classpath.CONmlFGB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:48:19.131
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CONmlFGB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:48:19.131
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CONmlFGB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:48:19.131
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:48:19.131
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CONmlFGB => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-24 17:50:19.355
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.383
+!MESSAGE Boot LS startup time from start to initialized: 3723ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.412
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QbuXNsbG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.413
+!MESSAGE subscribing to classpath changes: sts4.classpath.QbuXNsbG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.413
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.413
+!MESSAGE subsribers = [sts4.classpath.QbuXNsbG]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.413
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.416
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.416
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.416
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.416
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QbuXNsbG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.416
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.417
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.418
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.418
+!MESSAGE executing callback sts4.classpath.QbuXNsbG m3-final false 117
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-24 17:50:20.426
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.lambda$11(LSBasedHover.java:236)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.lambda$10(LSBasedHover.java:245)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:213)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.478
+!MESSAGE executing callback sts4.classpath.QbuXNsbG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.478
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.478
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.479
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.479
+!MESSAGE executing callback sts4.classpath.QbuXNsbG m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 17:50:20.484
+!MESSAGE executing callback sts4.classpath.QbuXNsbG SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2019-04-24 18:20:16.532
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.StackOverflowError
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+	at org.eclipse.swt.widgets.Widget.gtk_widget_get_window(Widget.java:1882)
+	at org.eclipse.swt.widgets.Control.setBackgroundSurface(Control.java:5106)
+	at org.eclipse.swt.widgets.Control.gtk_style_updated(Control.java:4171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6029)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_widget_realize(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_realize(GTK.java:8849)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:26:52.962
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QbuXNsbG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:26:52.962
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QbuXNsbG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:26:52.962
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:26:52.962
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QbuXNsbG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.709
+!MESSAGE Boot LS startup time from start to initialized: 5797ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.791
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yhIEuyDz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.791
+!MESSAGE subscribing to classpath changes: sts4.classpath.yhIEuyDz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.791
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE subsribers = [sts4.classpath.yhIEuyDz]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.792
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.793
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.793
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yhIEuyDz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.794
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.794
+!MESSAGE executing callback sts4.classpath.yhIEuyDz m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.883
+!MESSAGE executing callback sts4.classpath.yhIEuyDz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.883
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.884
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.884
+!MESSAGE executing callback sts4.classpath.yhIEuyDz m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:27:07.896
+!MESSAGE executing callback sts4.classpath.yhIEuyDz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:35:39.448
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yhIEuyDz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:35:39.448
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yhIEuyDz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:35:39.449
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-24 18:35:39.449
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yhIEuyDz => OK
+!SESSION 2019-04-25 09:53:35.224 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-25 09:54:16.937
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-25 09:54:26.206
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-25 09:54:29.523
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-25 09:54:29.523
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53654b2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45b2b0ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:34.241
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:34.241
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5cdb7b[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=528)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:34.242
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:34.392
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.690
+!MESSAGE Boot LS startup time from start to initialized: 9370ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.743
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IiHoYsyf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.743
+!MESSAGE subscribing to classpath changes: sts4.classpath.IiHoYsyf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.744
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.744
+!MESSAGE subsribers = [sts4.classpath.IiHoYsyf]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.745
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.746
+!MESSAGE project m3-final ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.747
+!MESSAGE project m2test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.747
+!MESSAGE Preparing classpath changed notification m3-final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.747
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.747
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IiHoYsyf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.747
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.751
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.751
+!MESSAGE executing callback sts4.classpath.IiHoYsyf m3-final false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.809
+!MESSAGE executing callback sts4.classpath.IiHoYsyf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.810
+!MESSAGE Preparing classpath changed notification m2test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.812
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.812
+!MESSAGE executing callback sts4.classpath.IiHoYsyf m2test false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 09:57:43.841
+!MESSAGE executing callback sts4.classpath.IiHoYsyf SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-25 09:57:48.952
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2019-04-25 10:17:39.690
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-25 11:14:39.633
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:79)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-25 11:14:40.169
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:79)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2019-04-25 12:32:17.093
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2251)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2341)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:742)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:602)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1200)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1981)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1098)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:628)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:236)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7410)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2283)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7199)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6061)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2019-04-25 12:33:16.657
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2182)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2341)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:742)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:602)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1200)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1981)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2410)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:146)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2370)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:108)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:106)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1098)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:628)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:236)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7410)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8274)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2283)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7199)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6061)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6088)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5786)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5783)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1411)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1437)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1420)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1461)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:817)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3935)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:857)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2203)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6035)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4135)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1407)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1584)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4577)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 14:31:52.631
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IiHoYsyf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 14:31:52.631
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IiHoYsyf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 14:31:52.631
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 14:31:52.632
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IiHoYsyf => OK

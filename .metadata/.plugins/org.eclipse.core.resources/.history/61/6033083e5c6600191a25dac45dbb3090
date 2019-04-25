@@ -1,0 +1,5 @@
+package com.aamir.m2.model;
+
+public class UserModel {
+
+}
